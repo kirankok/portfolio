@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
 body {
+  font-family: 'Inter';
   background-color: #ffffff;
   padding: 20px;
 }
@@ -23,4 +26,51 @@ header {
 
 .menu-item {
   font-size: 24px;
+}
+
+.invitation {
+  font-size: 32px;
+  color: #3BBADB;
+}
+
+.introduction {
+  color: #018DB0;
+  font-size: 67px;
+}
+
+.my-details {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.hire-me {
+  background-color: #008AAA;
+  color: #ffffff;
+  border: none;
+  width: 150px;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
+
+.my-project {
+  background-color: #ffffff;
+  color: #008AAA;
+  border: none;
+  width: 150px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  border: 2px solid;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-image {
+  border-bottom-left-radius: 50%;
+}
+
+.profession {
+  color: #D1884F;
 }
